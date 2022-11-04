@@ -61,3 +61,8 @@ body {
     text-align: right;
     color: #6f6df4;
 }
+
+hr {
+    border: none;
+    border-bottom: 1px solid #cdccfd;
+}
