@@ -66,3 +66,12 @@ hr {
     border: none;
     border-bottom: 1px solid #cdccfd;
 }
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type="range"]:not(:last-child) {
+    margin-bottom: 5px;
+}
