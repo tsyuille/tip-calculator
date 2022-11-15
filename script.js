@@ -16,6 +16,4 @@ function calculateTip() {
 
     let tipPerPerson = (totalTip / numOfPeople).toFixed(2)
     let totalPerPerson = (total / numOfPeople).toFixed(2)
-
-    console.log(totalTip, total, tipPerPerson, totalPerPerson)
 }
