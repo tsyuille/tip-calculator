@@ -1,4 +1,4 @@
-const sliders = document.querySelectorAll("input [type='range']")
+const sliders = document.querySelectorAll("input[type='range']")
 sliders.forEach((slider) => slider.addEventListener("input", calculateTip))
 
 const billInput = document.getElementById("bill")
